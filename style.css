@@ -1,0 +1,192 @@
+/*Header - padrão*/
+
+header {
+	background-image: url("imagens/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 520px;
+	background-color: #191919ec;
+	padding: 20px;
+	font-family: 'Jost',Helvetica,Arial,Lucida,sans-serif;
+	text-transform: uppercase;
+}
+
+.titulo-principal {
+	margin: 200px auto;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+nav {
+	padding-top: 20px;
+	vertical-align: top;
+	position: absolute;
+	right: 50px;
+	top: 25px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	padding: 5px; 
+	transition: 0.5s all;
+}
+
+nav a:hover {
+	color: #c78d199f;
+    text-decoration: underline;
+}
+
+/*Main */
+
+main {
+	font-family: 'Sen',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.principal {
+	background-color: white;
+	max-width: 90%;
+	margin: 50px auto;
+}
+
+.conteudo-principal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteudo-principal-texto{
+	width: 50%;
+	text-align: justify;
+	margin-right: 50px;
+	line-height: 1.8em;
+}
+
+.conteudo-principal-texto h2 {
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 18px;
+}
+
+.textosobre {
+	font-size: 18px;
+	padding-bottom: 18px;
+}
+
+#missao {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+
+.imagemsobre {
+	width: 400px;
+	transition: 0.5s all;
+}
+
+.imagemsobre:hover {
+	transform: scale(1.1);
+}
+
+/*Mapa*/
+
+.mapa {
+	background-color: #191919;
+}
+
+.conteudo-mapa {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 3em 0;
+	color: white;
+}
+
+.mapa h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.mapa p {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+/*Beneficios*/
+
+.beneficios {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.beneficios h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 1em;
+	font-weight: bold
+}
+
+.conteudo-beneficios {
+	max-width: 960px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteudo-beneficios ul {
+	margin-right: 50px;
+	font-size: 18px;
+}
+
+.itens {
+	line-height: 1.5em;
+}
+
+.itens:before {
+	padding-right: 2px;
+	content: "🟊 ";
+}
+
+.imagem-beneficios {
+	width: 320px;
+	transition: 0.5s all;
+}
+
+.imagem-beneficios:hover {
+	transform: scale(1.1);
+}
+
+/*Video*/
+
+.video {
+	width: 600px;
+	margin: 50px auto;
+}
+
+
+/*Footer - padrão*/
+
+footer {
+    text-align: center;
+    background: url("/imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
